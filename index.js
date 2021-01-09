@@ -15,11 +15,7 @@ let myarr = [2,3,1,-3,0,-23,93,23];
             for(let i = 0; i < myarr.length; i++ ){
                 if(i != middlearr ){
 
-                    if( myarr[i] > pivot ) {
-                        rightarr.push(myarr[i])
-                    }else{
-                        leftarr.push(myarr[i]);
-                    }
+        ( myarr[i] > pivot ? rightarr.push(myarr[i]) : leftarr.push(myarr[i]))                          
 
 
                     }
