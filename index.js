@@ -16,16 +16,13 @@ let myarr = [2,3,1,-3,0,-23,93,23];
                 if(i != middlearr ){
 
         ( myarr[i] > pivot ? rightarr.push(myarr[i]) : leftarr.push(myarr[i]))                          
-
-
                     }
                     }  
                     leftarr    = quicksort(leftarr);
-                    rightarr   = quicksort(rightarr)   
-                   
+                    rightarr   = quicksort(rightarr)                      
               
                     return leftarr.concat(pivot).concat(rightarr);
-                    //console.log(leftarr.concat(pivot,rightarr))
+              
                     
                     }
 
